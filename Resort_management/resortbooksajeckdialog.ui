@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>resortbooksajeckDialog</class>
+ <widget class="QDialog" name="resortbooksajeckDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(0, 0, 0)</string>
+  </property>
+  <widget class="QLabel" name="label_identityressajeck">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>    identity</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_eidressajeck">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="placeholderText">
+    <string>  ctg01</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_identityressajeck">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>70</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="placeholderText">
+    <string>  book or booked</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_identityressajeck">
+   <property name="geometry">
+    <rect>
+     <x>224</x>
+     <y>230</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>book</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_eidressajeck">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>140</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>   eid</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

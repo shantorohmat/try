@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>saintmartinDialog</class>
+ <widget class="QDialog" name="saintmartinDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>457</width>
+    <height>335</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(0, 85, 0);</string>
+  </property>
+  <widget class="QTableView" name="tableView_saintmartiny">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>421</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Bell MT&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_saintmartiny">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>240</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Bell MT&quot;;
+background:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>show resort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_resortbooksaint">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>260</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(85, 170, 0)</string>
+   </property>
+   <property name="text">
+    <string>resort book</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_customerbooksaint">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>260</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(85, 85, 0)</string>
+   </property>
+   <property name="text">
+    <string>customer book</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

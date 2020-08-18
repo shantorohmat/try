@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fiveDialog</class>
+ <widget class="QDialog" name="fiveDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(255, 0, 0)</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_chit">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>90</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(0, 85, 0)</string>
+   </property>
+   <property name="text">
+    <string>chittagong</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_martin">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>90</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(0, 85, 0)</string>
+   </property>
+   <property name="text">
+    <string>saintmartin</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sajeck">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>90</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(0, 85, 0)</string>
+   </property>
+   <property name="text">
+    <string>sajeck</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

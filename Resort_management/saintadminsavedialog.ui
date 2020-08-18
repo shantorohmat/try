@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>saintadminsaveDialog</class>
+ <widget class="QDialog" name="saintadminsaveDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>641</width>
+    <height>419</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(0, 0, 0)</string>
+  </property>
+  <widget class="QLabel" name="label_indentitys">
+   <property name="geometry">
+    <rect>
+     <x>134</x>
+     <y>200</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>  identity</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_identitys">
+   <property name="geometry">
+    <rect>
+     <x>244</x>
+     <y>200</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="placeholderText">
+    <string>    book or booked</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_saves">
+   <property name="geometry">
+    <rect>
+     <x>408</x>
+     <y>320</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(170, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_eids">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>270</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>    eid</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_names">
+   <property name="geometry">
+    <rect>
+     <x>134</x>
+     <y>70</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>  Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_names">
+   <property name="geometry">
+    <rect>
+     <x>244</x>
+     <y>70</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="placeholderText">
+    <string>  Agrabad resort</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_eids">
+   <property name="geometry">
+    <rect>
+     <x>244</x>
+     <y>270</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="placeholderText">
+    <string>   ctg01</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_descriptions">
+   <property name="geometry">
+    <rect>
+     <x>244</x>
+     <y>130</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="placeholderText">
+    <string>  Agrabad,Chittagong</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_descriptions">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>130</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>description</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_updates">
+   <property name="geometry">
+    <rect>
+     <x>244</x>
+     <y>320</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(170, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>update</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

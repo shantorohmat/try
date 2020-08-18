@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sevenDialog</class>
+ <widget class="QDialog" name="sevenDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>616</width>
+    <height>288</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(0, 85, 0);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_chittagongx">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Bell MT&quot;;
+background:rgb(170, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>Chittagong</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_saintmartinx">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Bell MT&quot;;
+background:rgb(170, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>Saintmartin</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sajeckx">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>40</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Bell MT&quot;;
+background:rgb(170, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>sajeck</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>150</y>
+     <width>331</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Bell MT&quot;;
+background:rgb(0, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string>            Thanks for using our service</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
